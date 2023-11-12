@@ -1,0 +1,4 @@
+Edges are significant local changes of intensity in an image.
+Edges typically occur on the boundary between two different regions in an image.
+In this project, the edge detection of an image is done using first order derivative methods.
+Sobel and Prewitt operators have been used.

@@ -1,0 +1,14 @@
+With the current development of communication networks and internet services, the transmission of digital data over the networks has increased vastly.
+To provide the security of these digital data, some other data is hided into the original digital data.
+The data hiding into the images is a very important technique which is highly used in medical and military applications.
+Reversible data hiding is one of the techniques which is used for embedding the data into the digital images.
+Reversible data hiding is a technique that provides the secure and systematic embedding of additional information into the original digital data
+ like images, audios, videos, etc. and maintain the original digital data and allow the extraction of the hidden data without any distortion.
+In this project, Reversible Data Hiding is used for embedding the data into the original image using histogram shifting process is proposed.
+For embedding the secret message bits into the original image, from histogram of the original image Peak point is selected and pixel further 
+ greater than this peak point is shifted right by 2 units to create vacant places and then these secret message bits of 0s and 1s is inserted 
+ into the image and thus embedding process is done. The histogram shifting can also be done by some other units.
+For extraction process, from the embedded image secret message bits are extracted and also the original image is recovered back successfully.
+While extracting the original image reverse histogram shifting is done i.e. shifting the histogram left by same units as in embedding process.
+Multiple test images are implemented using this proposed reversible data hiding techniques and results show the good performance in terms of 
+ performance parameters like embedding capacity (payload), Mean Square Error (MSE) and Peak Signal to Noise Ratio (PSNR). 

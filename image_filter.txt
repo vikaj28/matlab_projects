@@ -1,0 +1,8 @@
+The filteration of an image is done using mean and median filter.
+When noise is present in the image, then that image must be filtered out to give a better quality of the image.
+The noise in the image processing are Salt and pepper noise, Gaussian noise, Poisson noise and Speckle noise.
+In this project, Salt and pepper noise is filtered out from the image.
+Salt and pepper noise refers to the white and black spots present in the image.
+It is also known as impulsive noise.
+Median filter shows the better result for removal of Salt and pepper noise from the image.
+Different filters is suitable for different noises.
